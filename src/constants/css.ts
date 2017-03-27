@@ -54,7 +54,7 @@ export default `
       background-color: rgba(0,0,0,0.05);
   }
   .mapboxgl-ctrl-icon,
-  .mapboxgl-ctrl-icon > div.arrow {
+  .mapboxgl-ctrl-icon > span.arrow {
       speak: none;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
@@ -72,7 +72,7 @@ export default `
       background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20viewBox%3D%270%200%2020%2020%27%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%3E%3Cpath%20style%3D%27fill%3A%23333333%3B%27%20d%3D%27M13%2C7%20L10.5%2C11.75%20L10.25%2C10%20z%20M13.888%2C6.112%20C13.615%2C5.84%2013.382%2C6.076%2012.5%2C6.5%20C10.14%2C7.634%206%2C10%206%2C10%20L9.5%2C10.5%20L10%2C14%20C10%2C14%2012.366%2C9.86%2013.5%2C7.5%20C13.924%2C6.617%2014.16%2C6.385%2013.888%2C6.112%27%2F%3E%3C%2Fsvg%3E");
   }
 
-  .mapboxgl-ctrl-icon.mapboxgl-ctrl-compass > div.arrow {
+  .mapboxgl-ctrl-icon.mapboxgl-ctrl-compass > span.arrow {
       width: 20px;
       height: 20px;
       margin: 5px;
